@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{var _s=JSON.parse(localStorage.getItem("ko_settings")||"{}");document.documentElement.setAttribute("data-theme",_s.theme||"defter");}catch(e){document.documentElement.setAttribute("data-theme","defter");}</script>
+<title>Dersbaz</title>
+<link rel="stylesheet" href="css/fonts.css?v=16">
+<link rel="stylesheet" href="css/style.css?v=16">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+
+<header id="hud">
+  <a class="brand" href="#/menu"><span class="brand-icon" id="brand-icon">⚗️</span><span><span id="brand-a">Ders</span><b id="brand-b">baz</b><small class="brand-sub" id="brand-sub"></small></span></a>
+  <div class="hud-actions">
+    <div class="player" id="player-chip" title="Profili düzenle">
+      <div class="avatar" id="avatar">🧑‍🔬</div>
+      <div class="player-info">
+        <div class="pname" id="pname">Oyuncu</div>
+        <div class="xpbar"><div class="xpfill" id="xpfill"></div></div>
+        <div class="plevel" id="plevel">Seviye 1</div>
+      </div>
+    </div>
+    <a class="icon-btn" href="#/dersler" title="Ders değiştir">📚</a>
+    <button class="icon-btn" id="btn-theme" title="Tema değiştir">🎨</button>
+    <button class="icon-btn" id="btn-sound" title="Sesi aç/kapat">🔊</button>
+    <button class="icon-btn" id="btn-full" title="Tam ekran (akıllı tahta)">⛶</button>
+    <a class="icon-btn" href="#/menu" title="Ana menü">🏠</a>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<canvas id="fx-canvas"></canvas>
+<div id="modal-root"></div>
+<div id="toast-root"></div>
+
+<script src="js/ui.js?v=16"></script>
+<script src="js/icons.js?v=16"></script>
+<script src="js/chem.js?v=16"></script>
+<script src="js/mathcore.js?v=16"></script>
+<script src="js/data.js?v=16"></script>
+<script src="js/math-data.js?v=16"></script>
+<script src="js/store.js?v=16"></script>
+<script src="js/fx.js?v=16"></script>
+<script src="js/render.js?v=16"></script>
+<script src="js/quiz.js?v=16"></script>
+<script src="js/balance.js?v=16"></script>
+<script src="js/atom.js?v=16"></script>
+<script src="js/orbital.js?v=16"></script>
+<script src="js/k-simetri.js?v=16"></script>
+<script src="js/k-grup.js?v=16"></script>
+<script src="js/ph.js?v=16"></script>
+<script src="js/gas.js?v=16"></script>
+<script src="js/m-balloon.js?v=16"></script>
+<script src="js/m-pizza.js?v=16"></script>
+<script src="js/m-clock.js?v=16"></script>
+<script src="js/m-graph.js?v=16"></script>
+<script src="js/m-equation.js?v=16"></script>
+<script src="js/admin.js?v=16"></script>
+<script src="js/app.js?v=16"></script>
+</body>
+</html>
